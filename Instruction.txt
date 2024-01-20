@@ -1,0 +1,43 @@
+pip install virtualenv
+virtualemv env
+
+source env/bin/activate
+
+
+pip install django
+django-admin (for chechking django)
+django-admin startproject SohojBazar 
+
+cd SohojBazar
+python manage.py runserver
+
+
+python manage.py startapp core
+
+/******** project learning*********/
+
+###
+SohojBazar, apps setup
+ settings.py
+    installed app - core (add)
+
+### Core
+## 1
+core setup   
+  views.py
+     def index
+    // request input, return core/ index.html
+    // render kore
+
+## 2
+    create new folder , templates in core.
+    jokhn request ashbe, Django auto, templates folder e jabe
+    , then oikhane , core folder khujbe, then index.html
+
+
+## 3 SohojBazar urls.py setup
+core , views theke index import kora
+then , url pattern add kora 
+
+//from core.views import index
+// path('', index, 'index'),
