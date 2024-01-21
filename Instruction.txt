@@ -41,3 +41,22 @@ then , url pattern add kora
 
 //from core.views import index
 // path('', index, 'index'),
+
+
+ 
+
+
+
+// something
+
+// items
+    database model
+    class Catagory(models.Model):
+    name = models.CharField(max_length=255)
+
+// python manage.py makemigrations
+    item> 0001 inital py created
+    
+    python manage.py migrate 
+    // 0001 initialized, with others django default  authentications
+ 
