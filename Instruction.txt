@@ -60,3 +60,6 @@ then , url pattern add kora
     python manage.py migrate 
     // 0001 initialized, with others django default  authentications
  
+
+
+ /// pip install pillow
